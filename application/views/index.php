@@ -15,22 +15,17 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta content="" name="description" />
     <meta content="" name="author" />
-    <link href="template/assets/plugins/pace/pace-theme-flash.css" rel="stylesheet" type="text/css" />
-    <link href="template/assets/plugins/bootstrapv3/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="template/assets/plugins/jquery-scrollbar/jquery.scrollbar.css" rel="stylesheet" type="text/css" media="screen" />
-    <link href="template/assets/plugins/select2/css/select2.min.css" rel="stylesheet" type="text/css" media="screen" />
-    <link href="template/assets/plugins/switchery/css/switchery.min.css" rel="stylesheet" type="text/css" media="screen" />
-    <link href="template/pages/css/pages-icons.css" rel="stylesheet" type="text/css">
-    <link class="main-stylesheet" href="template/pages/css/pages.css" rel="stylesheet" type="text/css" />
+    <link href="<?= base_url() ?>template/assets/plugins/pace/pace-theme-flash.css" rel="stylesheet" type="text/css" />
+    <link href="<?= base_url() ?>template/assets/plugins/bootstrapv3/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?= base_url() ?>template/assets/plugins/jquery-scrollbar/jquery.scrollbar.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="<?= base_url() ?>template/assets/plugins/select2/css/select2.min.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="<?= base_url() ?>template/assets/plugins/switchery/css/switchery.min.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="<?= base_url() ?>template/pages/css/pages-icons.css" rel="stylesheet" type="text/css">
+    <link class="main-stylesheet" href="<?= base_url() ?>template/pages/css/pages.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Actor&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Link to the file hosted on your server, -->
-    <link rel="stylesheet" href="path-to-the-file/splide.min.css">
-
-    <!-- or the one installed in node_modules directory, -->
-    <link rel="stylesheet" href="node_modules/@splidejs/splide/dist/css/splide.min.css">
 
     <!-- or the reference on CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
@@ -127,7 +122,7 @@
           <div class="pull-left sm-table hidden-xs hidden-sm">
             <div class="header-inner">
               <div class="brand inline" style="text-align: start;">
-                <img src="logo.png" alt="logo" data-src="logo.png" data-src-retina="logo.png" width="100px">
+                <img src="logo.png" alt="logo" data-src="<?= base_url() ?>img/logo.png" data-src-retina="<?= base_url() ?>img/logo.png" width="100px">
               </div>
               <ul class="notification-list no-margin hidden-sm hidden-xs no-style p-r-20">
                 <li class="p-r-50 inline">
@@ -192,7 +187,7 @@
                 <div class="panel panel-transparent">
                   <div class="panel-heading text-center">
                     <div class="panel-title text-center">
-                      <img src="erp.jpg" class="img-round" alt="" width=100px>
+                      <img src="<?= base_url() ?>img/erp.jpg" class="img-round" alt="" width=100px>
                     </div>
                   </div>
                   <div class="panel-body">
@@ -207,7 +202,7 @@
                 <div class="panel panel-transparent">
                   <div class="panel-heading text-center">
                     <div class="panel-title">
-                      <img src="pos_system.jpg" class="img-round" alt="" width=100px>
+                      <img src="<?= base_url() ?>img/pos_system.jpg" class="img-round" alt="" width=100px>
                     </div>
                   </div>
                   <div class="panel-body text-center">
@@ -222,7 +217,7 @@
                 <div class="panel panel-transparent">
                   <div class="panel-heading text-center">
                     <div class="panel-title">
-                      <img src="human_resource.jpg" class="img-round" alt="" width=100px>
+                      <img src="<?= base_url() ?>img/human_resource.jpg" class="img-round" alt="" width=100px>
                     </div>
                   </div>
                   <div class="panel-body text-center">
@@ -237,7 +232,7 @@
                 <div class="panel panel-transparent">
                   <div class="panel-heading text-center">
                     <div class="panel-title">
-                      <img src="trading.jpg" class="img-round" alt="" width=100px>
+                      <img src="<?= base_url() ?>img/trading.jpg" class="img-round" alt="" width=100px>
                     </div>
                   </div>
                   <div class="panel-body text-center">
@@ -252,7 +247,7 @@
                 <div class="panel panel-transparent">
                   <div class="panel-heading text-center">
                     <div class="panel-title">
-                      <img src="shipping.jpg" class="img-round" alt="" width=100px>
+                      <img src="<?= base_url() ?>img/shipping.jpg" class="img-round" alt="" width=100px>
                     </div>
                   </div>
                   <div class="panel-body text-center">
@@ -267,7 +262,7 @@
                 <div class="panel panel-transparent">
                   <div class="panel-heading text-center">
                     <div class="panel-title">
-                      <img src="tickets.jpg" class="img-round" alt="" width=100px>
+                      <img src="<?= base_url() ?>img/tickets.jpg" class="img-round" alt="" width=100px>
                     </div>
                   </div>
                   <div class="panel-body text-center">
@@ -481,12 +476,12 @@
               <div class="splide p-t-100 p-b-100">
                 <div class="splide__track">
                   <ul class="splide__list">
-                    <li class="splide__slide"><img src="logoclient/AML Logo CS5-01 - Mikha Kristian.png" width="300px" alt=""></li>
-                    <li class="splide__slide"><img src="logoclient/bookstore - Mikha Kristian.PNG" width="150px" alt=""></li>
-                    <li class="splide__slide"><img src="logoclient/icon - Mikha Kristian.png" width="100px" alt=""></li>
-                    <li class="splide__slide"><img src="logoclient/inoptic - Mikha Kristian.png" width="300px" alt=""></li>
-                    <li class="splide__slide"><img src="logoclient/logoeraprima - Mikha Kristian.gif" width="300px" alt=""></li>
-                    <li class="splide__slide"><img src="logoclient/logoswi - Mikha Kristian.png" width="100px" alt=""></li>
+                    <li class="splide__slide"><img src="<?= base_url() ?>logoclient/AML Logo CS5-01 - Mikha Kristian.png" width="300px" alt=""></li>
+                    <li class="splide__slide"><img src="<?= base_url() ?>logoclient/bookstore - Mikha Kristian.PNG" width="150px" alt=""></li>
+                    <li class="splide__slide"><img src="<?= base_url() ?>logoclient/icon - Mikha Kristian.png" width="100px" alt=""></li>
+                    <li class="splide__slide"><img src="<?= base_url() ?>logoclient/inoptic - Mikha Kristian.png" width="300px" alt=""></li>
+                    <li class="splide__slide"><img src="<?= base_url() ?>logoclient/logoeraprima - Mikha Kristian.gif" width="300px" alt=""></li>
+                    <li class="splide__slide"><img src="<?= base_url() ?>logoclient/logoswi - Mikha Kristian.png" width="100px" alt=""></li>
                   </ul>
                 </div>
               </div>
@@ -596,26 +591,26 @@
     </div>
     <!-- END PAGE CONTAINER -->
     <!-- BEGIN VENDOR JS -->
-    <script src="template/assets/plugins/pace/pace.min.js" type="text/javascript"></script>
-    <script src="template/assets/plugins/jquery/jquery-1.11.1.min.js" type="text/javascript"></script>
-    <script src="template/assets/plugins/modernizr.custom.js" type="text/javascript"></script>
-    <script src="template/assets/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
-    <script src="template/assets/plugins/bootstrapv3/js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="template/assets/plugins/jquery/jquery-easy.js" type="text/javascript"></script>
-    <script src="template/assets/plugins/jquery-unveil/jquery.unveil.min.js" type="text/javascript"></script>
-    <script src="template/assets/plugins/jquery-bez/jquery.bez.min.js"></script>
-    <script src="template/assets/plugins/jquery-ios-list/jquery.ioslist.min.js" type="text/javascript"></script>
-    <script src="template/assets/plugins/jquery-actual/jquery.actual.min.js"></script>
-    <script src="template/assets/plugins/jquery-scrollbar/jquery.scrollbar.min.js"></script>
-    <script type="text/javascript" src="template/assets/plugins/select2/js/select2.full.min.js"></script>
-    <script type="text/javascript" src="template/assets/plugins/classie/classie.js"></script>
-    <script src="template/assets/plugins/switchery/js/switchery.min.js" type="text/javascript"></script>
+    <script src="<?= base_url() ?>template/assets/plugins/pace/pace.min.js" type="text/javascript"></script>
+    <script src="<?= base_url() ?>template/assets/plugins/jquery/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="<?= base_url() ?>template/assets/plugins/modernizr.custom.js" type="text/javascript"></script>
+    <script src="<?= base_url() ?>template/assets/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="<?= base_url() ?>template/assets/plugins/bootstrapv3/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="<?= base_url() ?>template/assets/plugins/jquery/jquery-easy.js" type="text/javascript"></script>
+    <script src="<?= base_url() ?>template/assets/plugins/jquery-unveil/jquery.unveil.min.js" type="text/javascript"></script>
+    <script src="<?= base_url() ?>template/assets/plugins/jquery-bez/jquery.bez.min.js"></script>
+    <script src="<?= base_url() ?>template/assets/plugins/jquery-ios-list/jquery.ioslist.min.js" type="text/javascript"></script>
+    <script src="<?= base_url() ?>template/assets/plugins/jquery-actual/jquery.actual.min.js"></script>
+    <script src="<?= base_url() ?>template/assets/plugins/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+    <script type="text/javascript" src="<?= base_url() ?>template/assets/plugins/select2/js/select2.full.min.js"></script>
+    <script type="text/javascript" src="<?= base_url() ?>template/assets/plugins/classie/classie.js"></script>
+    <script src="<?= base_url() ?>template/assets/plugins/switchery/js/switchery.min.js" type="text/javascript"></script>
     <!-- END VENDOR JS -->
     <!-- BEGIN CORE TEMPLATE JS -->
-    <script src="template/pages/js/pages.min.js"></script>
+    <script src="<?= base_url() ?>template/pages/js/pages.min.js"></script>
     <!-- END CORE TEMPLATE JS -->
     <!-- BEGIN PAGE LEVEL JS -->
-    <script src="template/assets/js/scripts.js" type="text/javascript"></script>
+    <script src="<?= base_url() ?>template/assets/js/scripts.js" type="text/javascript"></script>
     <!-- END PAGE LEVEL JS -->
   </body>
 </html>
