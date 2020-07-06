@@ -502,19 +502,47 @@
             </button>
             <div class="modal-dialog ">
               <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="text-left p-b-5"><span class="semi-bold">News letter</span> signup</h5>
+                <div class="modal-header" style="text-align:left;">
+                  <img src="logo.png" alt="logo" data-src="<?= base_url() ?>img/logo.png" class="m-b-15" data-src-retina="<?= base_url() ?>img/logo.png" width="100px">
                 </div>
                 <div class="modal-body">
-                  <div class="row">
-                    <div class="col-md-9 ">
-                      <input type="text" placeholder="Your email address here" class="form-control input-lg" id="icon-filter" name="icon-filter">
-                    </div>
-                    <div class="col-md-3 no-padding sm-m-t-10 sm-text-center">
-                      <button type="button" class="btn btn-primary btn-lg btn-large fs-15">Sign up</button>
-                    </div>
-                  </div>
-                  <p class="text-right sm-text-center hinted-text p-t-10 p-r-10">What is it? Terms and conditions</p>
+                  <form id="form-personal" role="form" autocomplete="off">
+                      <div class="row clearfix">
+                          <div class="col-md-6">
+                            <div class="form-group form-group-default required">
+                              <label>Your Name</label>
+                              <input type="text" class="form-control" name="nama" required>
+                            </div>
+                          </div>
+                        <div class="col-md-6">
+                          <div class="form-group form-group-default required">
+                            <label>Your Email</label>
+                            <input type="email" class="form-control" name="email" required>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="form-group form-group-default required">
+                            <label>Subject</label>
+                            <input type="text" class="form-control" name="subject" required>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="form-group form-group-default required">
+                            <label>Your Message</label>
+                            <textarea class="form-control" name="message" required style="height:200px;"></textarea>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12 text-right">
+                          <button type="submit" class="btn btn-complete btn-cons" name="btnSubmit">Send</button>
+                        </div>
+                      </div>
+                  </form>
                 </div>
                 <div class="modal-footer">
                 </div>
